@@ -1,0 +1,41 @@
+body{
+    background-color: #cac5c5 ;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+ display: block;
+ flex-direction: column;
+
+    }
+
+
+.console img{
+    width: 180px;  
+    height: 120px;
+    flex: 2;
+    padding: 10px;
+    border: solid rgb(175, 37, 37);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.texto{
+    padding: 10px;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+  }
+
+
+  
